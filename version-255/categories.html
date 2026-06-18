@@ -1,0 +1,772 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>电影分类-热门电影-高清影片在线观看</title>
+  <meta name="description" content="热门电影分类总览，按不同片单整理动作、喜剧、爱情、悬疑等高清影片内容。">
+  <meta name="keywords" content="热门电影,热门好看的电影,高清影片在线观看,电影片库,精选电影,热门影片,电影推荐,电影分类">
+  <meta name="robots" content="index,follow">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <script src="./assets/js/main.js" defer></script>
+  
+</head>
+<body>
+<header class="site-header">
+  <nav class="top-nav container" aria-label="主导航">
+    <a class="site-logo" href="./index.html" aria-label="热门电影">
+      <span class="logo-mark">▶</span>
+      <span class="logo-text">
+        <strong>热门电影</strong>
+        <small>高清影片在线观看</small>
+      </span>
+    </a>
+    <div class="desktop-nav">
+      <a href="./index.html">首页</a>
+      <a href="./categories.html" class="is-active">分类</a>
+      <a href="./category-hot-movies.html">热门电影</a><a href="./category-selected-films.html">口碑精选</a><a href="./category-cinema-picks.html">影院新片</a><a href="./category-thriller-night.html">悬疑惊悚</a><a href="./category-light-comedy.html">喜剧生活</a><a href="./category-love-drama.html">爱情剧情</a>
+      <a href="./rankings.html">排行榜</a>
+    </div>
+    <form class="nav-search" action="./search.html" method="get" role="search">
+      <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit" aria-label="搜索">⌕</button>
+    </form>
+    <button class="mobile-toggle" type="button" aria-label="展开导航" aria-expanded="false">☰</button>
+  </nav>
+  <div class="mobile-nav" hidden>
+    <a href="./index.html">首页</a>
+    <a href="./categories.html">分类总览</a>
+    <a href="./category-hot-movies.html">热门电影</a><a href="./category-selected-films.html">口碑精选</a><a href="./category-cinema-picks.html">影院新片</a><a href="./category-thriller-night.html">悬疑惊悚</a><a href="./category-light-comedy.html">喜剧生活</a><a href="./category-love-drama.html">爱情剧情</a><a href="./category-fantasy-world.html">科幻奇幻</a><a href="./category-youth-urban.html">都市青春</a><a href="./category-history-war.html">历史战争</a><a href="./category-family-animation.html">动画家庭</a><a href="./category-documentary-reality.html">纪录纪实</a><a href="./category-global-vision.html">海外精选</a>
+    <a href="./rankings.html">排行榜</a>
+    <form action="./search.html" method="get" role="search">
+      <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+      <button type="submit">搜索</button>
+    </form>
+  </div>
+</header>
+<main class="page-shell">
+  <section class="container page-hero small-hero">
+    <div>
+      <span>Category</span>
+      <h1>电影分类</h1>
+      <p>从不同片单进入影片详情页，快速浏览热门好看的电影与多题材高清影片内容。</p>
+    </div>
+  </section>
+  <section class="container section-block">
+    <div class="category-grid"><a class="category-card" href="./category-hot-movies.html">
+  <img src="./2.jpg" alt="热门电影" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>热门电影</strong>
+    <em>聚合当下热度较高的多题材影片，适合快速发现值得观看的电影内容。</em>
+  </span>
+</a><a class="category-card" href="./category-selected-films.html">
+  <img src="./14.jpg" alt="口碑精选" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>口碑精选</strong>
+    <em>按故事完成度、题材辨识度与观影讨论度整理的精选片单。</em>
+  </span>
+</a><a class="category-card" href="./category-cinema-picks.html">
+  <img src="./5.jpg" alt="影院新片" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>影院新片</strong>
+    <em>收录近年关注度较高的院线质感作品，覆盖剧情、悬疑、喜剧等方向。</em>
+  </span>
+</a><a class="category-card" href="./category-thriller-night.html">
+  <img src="./4.jpg" alt="悬疑惊悚" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>悬疑惊悚</strong>
+    <em>适合夜晚观看的悬疑、惊悚、犯罪与心理向内容集合。</em>
+  </span>
+</a><a class="category-card" href="./category-light-comedy.html">
+  <img src="./17.jpg" alt="喜剧生活" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>喜剧生活</strong>
+    <em>以轻松、都市、家庭和成长故事为主，兼顾娱乐性与人物温度。</em>
+  </span>
+</a><a class="category-card" href="./category-love-drama.html">
+  <img src="./1.jpg" alt="爱情剧情" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>爱情剧情</strong>
+    <em>收录情感、家庭、都市与人生选择相关的剧情片与剧集。</em>
+  </span>
+</a><a class="category-card" href="./category-fantasy-world.html">
+  <img src="./3.jpg" alt="科幻奇幻" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>科幻奇幻</strong>
+    <em>整理科幻、奇幻、冒险以及超现实设定下的故事内容。</em>
+  </span>
+</a><a class="category-card" href="./category-youth-urban.html">
+  <img src="./38.jpg" alt="都市青春" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>都市青春</strong>
+    <em>聚焦青春成长、职场生活、城市关系与年轻人选择的片单。</em>
+  </span>
+</a><a class="category-card" href="./category-history-war.html">
+  <img src="./18.jpg" alt="历史战争" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>历史战争</strong>
+    <em>涵盖历史、战争、传记与时代背景浓厚的电影作品。</em>
+  </span>
+</a><a class="category-card" href="./category-family-animation.html">
+  <img src="./9.jpg" alt="动画家庭" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>动画家庭</strong>
+    <em>适合家庭观看的动画、亲情、成长与轻冒险类型内容。</em>
+  </span>
+</a><a class="category-card" href="./category-documentary-reality.html">
+  <img src="./6.jpg" alt="纪录纪实" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>纪录纪实</strong>
+    <em>偏向真实观察、人物记录、社会议题和纪实气质的影视内容。</em>
+  </span>
+</a><a class="category-card" href="./category-global-vision.html">
+  <img src="./60.jpg" alt="海外精选" loading="lazy">
+  <span class="category-shade"></span>
+  <span class="category-content">
+    <strong>海外精选</strong>
+    <em>从不同地区与文化视角中整理出的海外题材精选内容。</em>
+  </span>
+</a></div>
+  </section>
+  <div class="container preview-stack"><section class="category-preview">
+  <div class="section-heading">
+    <h2>热门电影</h2>
+    <a href="./category-hot-movies.html">进入片单</a>
+  </div>
+  <p>聚合当下热度较高的多题材影片，适合快速发现值得观看的电影内容。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-2.html" class="compact-poster">
+    <img src="./2.jpg" alt="纳粹大谋杀" loading="lazy">
+    <span>2026</span>
+  </a>
+  <h3><a href="./movie-2.html">纳粹大谋杀</a></h3>
+  <p>美国，德国</p>
+</article><article class="compact-card">
+  <a href="./movie-16.html" class="compact-poster">
+    <img src="./16.jpg" alt="长靴" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-16.html">长靴</a></h3>
+  <p>英国</p>
+</article><article class="compact-card">
+  <a href="./movie-45.html" class="compact-poster">
+    <img src="./45.jpg" alt="所念皆如愿" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-45.html">所念皆如愿</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-54.html" class="compact-poster">
+    <img src="./54.jpg" alt="冲出死亡营" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-54.html">冲出死亡营</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-56.html" class="compact-poster">
+    <img src="./56.jpg" alt="约翰二十三世：和平教皇" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-56.html">约翰二十三世：和平教皇</a></h3>
+  <p>意大利</p>
+</article><article class="compact-card">
+  <a href="./movie-66.html" class="compact-poster">
+    <img src="./66.jpg" alt="超级飞侠第十季" loading="lazy">
+    <span>2022</span>
+  </a>
+  <h3><a href="./movie-66.html">超级飞侠第十季</a></h3>
+  <p>中国大陆</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>口碑精选</h2>
+    <a href="./category-selected-films.html">进入片单</a>
+  </div>
+  <p>按故事完成度、题材辨识度与观影讨论度整理的精选片单。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-14.html" class="compact-poster">
+    <img src="./14.jpg" alt="家和万事兴之善意的谎言" loading="lazy">
+    <span>2021</span>
+  </a>
+  <h3><a href="./movie-14.html">家和万事兴之善意的谎言</a></h3>
+  <p>中国</p>
+</article><article class="compact-card">
+  <a href="./movie-22.html" class="compact-poster">
+    <img src="./22.jpg" alt="矢野同学的普通日常" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-22.html">矢野同学的普通日常</a></h3>
+  <p>日本</p>
+</article><article class="compact-card">
+  <a href="./movie-26.html" class="compact-poster">
+    <img src="./26.jpg" alt="好莱坞电锯妓女" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-26.html">好莱坞电锯妓女</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-46.html" class="compact-poster">
+    <img src="./46.jpg" alt="阿富汗16天" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-46.html">阿富汗16天</a></h3>
+  <p>英国</p>
+</article><article class="compact-card">
+  <a href="./movie-78.html" class="compact-poster">
+    <img src="./78.jpg" alt="尼罗河上的惨案国语" loading="lazy">
+    <span>2022</span>
+  </a>
+  <h3><a href="./movie-78.html">尼罗河上的惨案国语</a></h3>
+  <p>美国 / 英国</p>
+</article><article class="compact-card">
+  <a href="./movie-90.html" class="compact-poster">
+    <img src="./90.jpg" alt="女孩不设限" loading="lazy">
+    <span>2020</span>
+  </a>
+  <h3><a href="./movie-90.html">女孩不设限</a></h3>
+  <p>美国</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>影院新片</h2>
+    <a href="./category-cinema-picks.html">进入片单</a>
+  </div>
+  <p>收录近年关注度较高的院线质感作品，覆盖剧情、悬疑、喜剧等方向。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-5.html" class="compact-poster">
+    <img src="./5.jpg" alt="兽猎荒原" loading="lazy">
+    <span>2026</span>
+  </a>
+  <h3><a href="./movie-5.html">兽猎荒原</a></h3>
+  <p>西班牙</p>
+</article><article class="compact-card">
+  <a href="./movie-10.html" class="compact-poster">
+    <img src="./10.jpg" alt="圣爱启示录" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-10.html">圣爱启示录</a></h3>
+  <p>法国, 比利时</p>
+</article><article class="compact-card">
+  <a href="./movie-24.html" class="compact-poster">
+    <img src="./24.jpg" alt="台妹向前冲" loading="lazy">
+    <span>2016</span>
+  </a>
+  <h3><a href="./movie-24.html">台妹向前冲</a></h3>
+  <p>中国台湾</p>
+</article><article class="compact-card">
+  <a href="./movie-47.html" class="compact-poster">
+    <img src="./47.jpg" alt="虫女" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-47.html">虫女</a></h3>
+  <p>日本</p>
+</article><article class="compact-card">
+  <a href="./movie-53.html" class="compact-poster">
+    <img src="./53.jpg" alt="突入！浅间山庄事件" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-53.html">突入！浅间山庄事件</a></h3>
+  <p>日本</p>
+</article><article class="compact-card">
+  <a href="./movie-99.html" class="compact-poster">
+    <img src="./99.jpg" alt="面包机上学记" loading="lazy">
+    <span>2023</span>
+  </a>
+  <h3><a href="./movie-99.html">面包机上学记</a></h3>
+  <p>美国</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>悬疑惊悚</h2>
+    <a href="./category-thriller-night.html">进入片单</a>
+  </div>
+  <p>适合夜晚观看的悬疑、惊悚、犯罪与心理向内容集合。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-4.html" class="compact-poster">
+    <img src="./4.jpg" alt="恋爱中感动禁止" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-4.html">恋爱中感动禁止</a></h3>
+  <p>日本</p>
+</article><article class="compact-card">
+  <a href="./movie-11.html" class="compact-poster">
+    <img src="./11.jpg" alt="沉默的反抗" loading="lazy">
+    <span>2022</span>
+  </a>
+  <h3><a href="./movie-11.html">沉默的反抗</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-13.html" class="compact-poster">
+    <img src="./13.jpg" alt="乐透美国梦" loading="lazy">
+    <span>2023</span>
+  </a>
+  <h3><a href="./movie-13.html">乐透美国梦</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-19.html" class="compact-poster">
+    <img src="./19.jpg" alt="百万最爆点" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-19.html">百万最爆点</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-25.html" class="compact-poster">
+    <img src="./25.jpg" alt="白云山传奇" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-25.html">白云山传奇</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-40.html" class="compact-poster">
+    <img src="./40.jpg" alt="爱与革命" loading="lazy">
+    <span>2007</span>
+  </a>
+  <h3><a href="./movie-40.html">爱与革命</a></h3>
+  <p>古巴 / 西班牙</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>喜剧生活</h2>
+    <a href="./category-light-comedy.html">进入片单</a>
+  </div>
+  <p>以轻松、都市、家庭和成长故事为主，兼顾娱乐性与人物温度。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-17.html" class="compact-poster">
+    <img src="./17.jpg" alt="芒洛医生 第二季" loading="lazy">
+    <span>2026</span>
+  </a>
+  <h3><a href="./movie-17.html">芒洛医生 第二季</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-23.html" class="compact-poster">
+    <img src="./23.jpg" alt="玩尽杀绝2" loading="lazy">
+    <span>2004</span>
+  </a>
+  <h3><a href="./movie-23.html">玩尽杀绝2</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-33.html" class="compact-poster">
+    <img src="./33.jpg" alt="马场三怪" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-33.html">马场三怪</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-36.html" class="compact-poster">
+    <img src="./36.jpg" alt="玫瑰香水" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-36.html">玫瑰香水</a></h3>
+  <p>法国</p>
+</article><article class="compact-card">
+  <a href="./movie-39.html" class="compact-poster">
+    <img src="./39.jpg" alt="惊笑好莱坞" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-39.html">惊笑好莱坞</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-65.html" class="compact-poster">
+    <img src="./65.jpg" alt="巴黎苏醒" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-65.html">巴黎苏醒</a></h3>
+  <p>法国</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>爱情剧情</h2>
+    <a href="./category-love-drama.html">进入片单</a>
+  </div>
+  <p>收录情感、家庭、都市与人生选择相关的剧情片与剧集。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-1.html" class="compact-poster">
+    <img src="./1.jpg" alt="魔鬼孩儿" loading="lazy">
+    <span>2019</span>
+  </a>
+  <h3><a href="./movie-1.html">魔鬼孩儿</a></h3>
+  <p>中国台湾</p>
+</article><article class="compact-card">
+  <a href="./movie-15.html" class="compact-poster">
+    <img src="./15.jpg" alt="大鼻子小英雄" loading="lazy">
+    <span>2023</span>
+  </a>
+  <h3><a href="./movie-15.html">大鼻子小英雄</a></h3>
+  <p>德国 / 法国</p>
+</article><article class="compact-card">
+  <a href="./movie-30.html" class="compact-poster">
+    <img src="./30.jpg" alt="小水手，大快乐" loading="lazy">
+    <span>2019</span>
+  </a>
+  <h3><a href="./movie-30.html">小水手，大快乐</a></h3>
+  <p>法国</p>
+</article><article class="compact-card">
+  <a href="./movie-31.html" class="compact-poster">
+    <img src="./31.jpg" alt="试婚99天" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-31.html">试婚99天</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-80.html" class="compact-poster">
+    <img src="./80.jpg" alt="我把忠诚献给你" loading="lazy">
+    <span>2019</span>
+  </a>
+  <h3><a href="./movie-80.html">我把忠诚献给你</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-89.html" class="compact-poster">
+    <img src="./89.jpg" alt="阿尔忒弥斯计划" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-89.html">阿尔忒弥斯计划</a></h3>
+  <p>美国</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>科幻奇幻</h2>
+    <a href="./category-fantasy-world.html">进入片单</a>
+  </div>
+  <p>整理科幻、奇幻、冒险以及超现实设定下的故事内容。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-3.html" class="compact-poster">
+    <img src="./3.jpg" alt="派对撩妹守则" loading="lazy">
+    <span>2026</span>
+  </a>
+  <h3><a href="./movie-3.html">派对撩妹守则</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-7.html" class="compact-poster">
+    <img src="./7.jpg" alt="走光的心" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-7.html">走光的心</a></h3>
+  <p>法国 / 比利时</p>
+</article><article class="compact-card">
+  <a href="./movie-8.html" class="compact-poster">
+    <img src="./8.jpg" alt="特区打工妹" loading="lazy">
+    <span>1990</span>
+  </a>
+  <h3><a href="./movie-8.html">特区打工妹</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-29.html" class="compact-poster">
+    <img src="./29.jpg" alt="零度动物园" loading="lazy">
+    <span>2023</span>
+  </a>
+  <h3><a href="./movie-29.html">零度动物园</a></h3>
+  <p>英国</p>
+</article><article class="compact-card">
+  <a href="./movie-37.html" class="compact-poster">
+    <img src="./37.jpg" alt="机器猛犬" loading="lazy">
+    <span>2022</span>
+  </a>
+  <h3><a href="./movie-37.html">机器猛犬</a></h3>
+  <p>韩国</p>
+</article><article class="compact-card">
+  <a href="./movie-55.html" class="compact-poster">
+    <img src="./55.jpg" alt="美女与怪物" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-55.html">美女与怪物</a></h3>
+  <p>日本</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>都市青春</h2>
+    <a href="./category-youth-urban.html">进入片单</a>
+  </div>
+  <p>聚焦青春成长、职场生活、城市关系与年轻人选择的片单。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-38.html" class="compact-poster">
+    <img src="./38.jpg" alt="使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 爱恋甜甜圈 卡罗尔 茉莉花开 烈女暴潮 恶灵空间 转角遇到爱 大爵士乐队 丧钟已鸣 地球末日 冰河世纪 蒂萨河上 戴洛奇小镇第一季 小型事故 加州杀手 换装师 史酷比 偶像大师 叔比狗疯狂摔角大奇案 重生之爱 潜行魔山" loading="lazy">
+    <span>2026</span>
+  </a>
+  <h3><a href="./movie-38.html">使用下方 20 个影片名，按顺序一一对应，不要改动片名文字，只根据片名和括号内类型提示来虚构全新的故事内容： 爱恋甜甜圈 卡罗尔 茉莉花开 烈女暴潮 恶灵空间 转角遇到爱 大爵士乐队 丧钟已鸣 地球末日 冰河世纪 蒂萨河上 戴洛奇小镇第一季 小型事故 加州杀手 换装师 史酷比 偶像大师 叔比狗疯狂摔角大奇案 重生之爱 潜行魔山</a></h3>
+  <p>根据片名判断</p>
+</article><article class="compact-card">
+  <a href="./movie-42.html" class="compact-poster">
+    <img src="./42.jpg" alt="情定金门桥" loading="lazy">
+    <span>2016</span>
+  </a>
+  <h3><a href="./movie-42.html">情定金门桥</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-57.html" class="compact-poster">
+    <img src="./57.jpg" alt="完美生物" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-57.html">完美生物</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-63.html" class="compact-poster">
+    <img src="./63.jpg" alt="盲目约会" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-63.html">盲目约会</a></h3>
+  <p>英国 / 美国</p>
+</article><article class="compact-card">
+  <a href="./movie-70.html" class="compact-poster">
+    <img src="./70.jpg" alt="西区故事1961" loading="lazy">
+    <span>1961</span>
+  </a>
+  <h3><a href="./movie-70.html">西区故事1961</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-76.html" class="compact-poster">
+    <img src="./76.jpg" alt="六楼后座" loading="lazy">
+    <span>2015</span>
+  </a>
+  <h3><a href="./movie-76.html">六楼后座</a></h3>
+  <p>香港</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>历史战争</h2>
+    <a href="./category-history-war.html">进入片单</a>
+  </div>
+  <p>涵盖历史、战争、传记与时代背景浓厚的电影作品。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-18.html" class="compact-poster">
+    <img src="./18.jpg" alt="中年失恋日记第一季" loading="lazy">
+    <span>2023</span>
+  </a>
+  <h3><a href="./movie-18.html">中年失恋日记第一季</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-48.html" class="compact-poster">
+    <img src="./48.jpg" alt="解放1：炮火弧线" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-48.html">解放1：炮火弧线</a></h3>
+  <p>俄罗斯</p>
+</article><article class="compact-card">
+  <a href="./movie-58.html" class="compact-poster">
+    <img src="./58.jpg" alt="糟糕的相遇" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-58.html">糟糕的相遇</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-59.html" class="compact-poster">
+    <img src="./59.jpg" alt="哈啰僵尸" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-59.html">哈啰僵尸</a></h3>
+  <p>中国台湾</p>
+</article><article class="compact-card">
+  <a href="./movie-94.html" class="compact-poster">
+    <img src="./94.jpg" alt="天堂：信仰" loading="lazy">
+    <span>2012</span>
+  </a>
+  <h3><a href="./movie-94.html">天堂：信仰</a></h3>
+  <p>奥地利 / 德国 / 法国</p>
+</article><article class="compact-card">
+  <a href="./movie-98.html" class="compact-poster">
+    <img src="./98.jpg" alt="解救" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-98.html">解救</a></h3>
+  <p>韩国</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>动画家庭</h2>
+    <a href="./category-family-animation.html">进入片单</a>
+  </div>
+  <p>适合家庭观看的动画、亲情、成长与轻冒险类型内容。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-9.html" class="compact-poster">
+    <img src="./9.jpg" alt="鬼马高中生" loading="lazy">
+    <span>2023</span>
+  </a>
+  <h3><a href="./movie-9.html">鬼马高中生</a></h3>
+  <p>马来西亚</p>
+</article><article class="compact-card">
+  <a href="./movie-28.html" class="compact-poster">
+    <img src="./28.jpg" alt="与希特勒们相遇" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-28.html">与希特勒们相遇</a></h3>
+  <p>德国</p>
+</article><article class="compact-card">
+  <a href="./movie-35.html" class="compact-poster">
+    <img src="./35.jpg" alt="异修罗第二季" loading="lazy">
+    <span>2026</span>
+  </a>
+  <h3><a href="./movie-35.html">异修罗第二季</a></h3>
+  <p>日本</p>
+</article><article class="compact-card">
+  <a href="./movie-44.html" class="compact-poster">
+    <img src="./44.jpg" alt="乌龙新院之乌龙秘笈" loading="lazy">
+    <span>2026</span>
+  </a>
+  <h3><a href="./movie-44.html">乌龙新院之乌龙秘笈</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-50.html" class="compact-poster">
+    <img src="./50.jpg" alt="室内足球少年!!!!!" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-50.html">室内足球少年!!!!!</a></h3>
+  <p>日本</p>
+</article><article class="compact-card">
+  <a href="./movie-61.html" class="compact-poster">
+    <img src="./61.jpg" alt="我在迪拜等你" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-61.html">我在迪拜等你</a></h3>
+  <p>中国</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>纪录纪实</h2>
+    <a href="./category-documentary-reality.html">进入片单</a>
+  </div>
+  <p>偏向真实观察、人物记录、社会议题和纪实气质的影视内容。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-6.html" class="compact-poster">
+    <img src="./6.jpg" alt="好想和你在一起" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-6.html">好想和你在一起</a></h3>
+  <p>中国</p>
+</article><article class="compact-card">
+  <a href="./movie-12.html" class="compact-poster">
+    <img src="./12.jpg" alt="拽妹黛薇儿第二季" loading="lazy">
+    <span>2025</span>
+  </a>
+  <h3><a href="./movie-12.html">拽妹黛薇儿第二季</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-20.html" class="compact-poster">
+    <img src="./20.jpg" alt="第十圈" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-20.html">第十圈</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-21.html" class="compact-poster">
+    <img src="./21.jpg" alt="小夫妻粤语" loading="lazy">
+    <span>1997</span>
+  </a>
+  <h3><a href="./movie-21.html">小夫妻粤语</a></h3>
+  <p>中国香港</p>
+</article><article class="compact-card">
+  <a href="./movie-27.html" class="compact-poster">
+    <img src="./27.jpg" alt="荒唐镜三气胭脂马粤语" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-27.html">荒唐镜三气胭脂马粤语</a></h3>
+  <p>中国香港</p>
+</article><article class="compact-card">
+  <a href="./movie-32.html" class="compact-poster">
+    <img src="./32.jpg" alt="珍奥斯汀在曼哈顿" loading="lazy">
+    <span>2020</span>
+  </a>
+  <h3><a href="./movie-32.html">珍奥斯汀在曼哈顿</a></h3>
+  <p>英国</p>
+</article></div>
+</section><section class="category-preview">
+  <div class="section-heading">
+    <h2>海外精选</h2>
+    <a href="./category-global-vision.html">进入片单</a>
+  </div>
+  <p>从不同地区与文化视角中整理出的海外题材精选内容。</p>
+  <div class="compact-grid"><article class="compact-card">
+  <a href="./movie-60.html" class="compact-poster">
+    <img src="./60.jpg" alt="血疫第一季" loading="lazy">
+    <span>2019</span>
+  </a>
+  <h3><a href="./movie-60.html">血疫第一季</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-62.html" class="compact-poster">
+    <img src="./62.jpg" alt="身体摄像机" loading="lazy">
+    <span>2020</span>
+  </a>
+  <h3><a href="./movie-62.html">身体摄像机</a></h3>
+  <p>美国</p>
+</article><article class="compact-card">
+  <a href="./movie-64.html" class="compact-poster">
+    <img src="./64.jpg" alt="西金" loading="lazy">
+    <span>2029</span>
+  </a>
+  <h3><a href="./movie-64.html">西金</a></h3>
+  <p>中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-67.html" class="compact-poster">
+    <img src="./67.jpg" alt="常春藤" loading="lazy">
+    <span>2024</span>
+  </a>
+  <h3><a href="./movie-67.html">常春藤</a></h3>
+  <p>美国, 中国大陆</p>
+</article><article class="compact-card">
+  <a href="./movie-75.html" class="compact-poster">
+    <img src="./75.jpg" alt="冤家宜结不宜解国语" loading="lazy">
+    <span>2021</span>
+  </a>
+  <h3><a href="./movie-75.html">冤家宜结不宜解国语</a></h3>
+  <p>中国香港</p>
+</article><article class="compact-card">
+  <a href="./movie-85.html" class="compact-poster">
+    <img src="./85.jpg" alt="意外的幸运签" loading="lazy">
+    <span>2021</span>
+  </a>
+  <h3><a href="./movie-85.html">意外的幸运签</a></h3>
+  <p>中国大陆</p>
+</article></div>
+</section></div>
+</main>
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="site-logo" href="./index.html">
+        <span class="logo-mark">▶</span>
+        <span class="logo-text">
+          <strong>热门电影</strong>
+          <small>高清影片在线观看</small>
+        </span>
+      </a>
+      <p>热门电影页面按热度整理多题材影片，涵盖动作、喜剧、爱情、悬疑等类型内容。</p>
+    </div>
+    <div>
+      <h2>分类导航</h2>
+      <ul><li><a href="./category-hot-movies.html">热门电影</a></li><li><a href="./category-selected-films.html">口碑精选</a></li><li><a href="./category-cinema-picks.html">影院新片</a></li><li><a href="./category-thriller-night.html">悬疑惊悚</a></li><li><a href="./category-light-comedy.html">喜剧生活</a></li><li><a href="./category-love-drama.html">爱情剧情</a></li><li><a href="./category-fantasy-world.html">科幻奇幻</a></li><li><a href="./category-youth-urban.html">都市青春</a></li></ul>
+    </div>
+    <div>
+      <h2>快速入口</h2>
+      <ul>
+        <li><a href="./index.html#today-picks">今日精选</a></li>
+        <li><a href="./index.html#hot-list">热门推荐</a></li>
+        <li><a href="./rankings.html">热度榜单</a></li>
+        <li><a href="./search.html">影片搜索</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-copy">© 2026 热门电影 · 热门好看的电影大全</div>
+</footer>
+
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
